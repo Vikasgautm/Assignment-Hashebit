@@ -1,0 +1,125 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-bar{
+    height: 60px;
+    background-color:  #333030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+ .logo1{
+    padding-left: 30px;
+    padding-top: 4px;
+} 
+.list{
+    /* display: contents; */
+    float: right;
+    display: flex;
+    width: 30%;
+    justify-items: center;
+    justify-content: space-around;
+}
+.list a:hover{
+    background-color: rgb(124, 7, 124);
+}
+
+.menu-var {
+    background-color: #635757;
+    height: 40px;
+    
+    
+}
+.menu-data{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.side-var{
+    background-color: aqua;
+    /* height: 30px; */
+    width: 30%;
+    
+}
+.main-var{
+    background-color: #007185;
+    /* height: 30px; */
+    width: 70%;
+    display: flex;
+}
+/* .aal{
+    opacity: 0;
+}
+#check{
+     opacity: 0;
+}
+.checkbtn{
+    color: white;
+} */
+/* .image-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+} */
+
+.box{
+    height: 190px;
+    width: 31%;
+    background-color: white;
+    padding: 5px 1px 10px;
+    margin-top: 3px;
+    margin: auto;
+}
+.box-img{
+    height: 125px;
+   background-size: cover;
+   margin: 0rem;
+   margin-bottom: 0.2rem;
+}
+.box-content{
+    margin-left: 8px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #007185;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
